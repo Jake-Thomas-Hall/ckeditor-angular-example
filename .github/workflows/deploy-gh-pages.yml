@@ -29,10 +29,7 @@ jobs:
       with:
         # Build directory to deploy
         build_dir: dist/ckeditor-testing
-        # Whether to treat build_dir as an absolute path
         # Allow Jekyll to build your site
         jekyll: false
-        dry_run: true
-        verbose: true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
